@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelled Image Gallary </title>
+    <link rel="stylesheet" href="navtravel.css">
+    <link rel="stylesheet" href="gallary.css">
+    <script src="gallary.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallary</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display: none;" onclick="imgV()">
+        <img id="fullImg" src="b.PNG">
+        <h1 id="imgheading">Heading</h1>
+        <p  id="imgparagraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor dolore ea fugiat ducimus consectetur atque ab. Aliquid, laudantium cupiditate.
+        </p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+           <li class="li"> <a href="Home.html">Home</a></li>
+           
+           <li class="li" id="sublistplace">places 
+            <ul id="sublist"> <a href="#">
+                <li class="sli">India</li> </a>
+                <a href="gallarydubai.html">
+                <li class="sli">Dubai</li></a>
+                <a href="gallarykorea.html">
+                <li class="sli">korea</li></a>
+            </ul>
+           </li>
+           <li class="li"> <a href="AboutUs.html">Info</a></li>
+           <li class="li"><a href="../index.html">logout</a></li>
+        </ul>
+    </div>
+    <!--from here gallary code starts -->
+    <div class="bodyOfGallary">
+        <img src="a.PNG" onclick="imgK(this.src,'Tiger in water','A Tiger does not need to boast that it is a Tiger.')">
+        <img src="b.PNG" onclick="imgK(this.src,'White Tiger','The Goal is not to be liked, it is to be respected.')">
+        <img src="c.PNG" onclick="imgK(this.src,'Bali Myna','In order to see birds it is necessary... to become part of the silence.')">
+        <img src="d.PNG" onclick="imgK(this.src,'Cat','Life is not measured by the number of breaths we take, but by the moments that take our breath away.')">
+        <img src="e.PNG" onclick="imgK(this.src,'Deer','Follow effective action with quite reflection.')">
+        <img src="f.PNG" onclick="imgK(this.src,'Elephant','The hardest walk you make is alone. But it is the walk that will make you stronger.')">
+        <img src="g.PNG" onclick="imgK(this.src,'Nilgiri Langur','Happiness is not something ready_made, it comes from your own actoins.')">
+        <img src="h.PNG" onclick="imgK(this.src,'Red Panda','Its not that i dont like exercise...  oh wait, yes, yes it is!')">
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelled Image Gallary </title>
+    <link rel="stylesheet" href="navtravel.css">
+    <link rel="stylesheet" href="gallary.css">
+    <script src="gallary.js" defer></script>
+</head>
+<body onload="kcolo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallary</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display: none;" onclick="imgV()">
+        <img id="fullImg" src="kb.PNG">
+        <h1 id="imgheading">Heading</h1>
+        <p  id="imgparagraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor dolore ea fugiat ducimus consectetur atque ab. Aliquid, laudantium cupiditate.
+        </p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+           <li class="li"> <a href="Home.html">Home</a></li>
+           <li class="li" id="sublistplace">places
+            <ul id="sublist"> <a href="gallary.html">
+                <li class="sli">India</li> </a>
+                <a href="gallarydubai.html">
+                <li class="sli">Dubai</li></a>
+                <a href="#">
+                <li class="sli">korea</li> </a>
+            </ul>
+           </li>
+           <li class="li"> <a href="AboutUs.html">Info</a></li>
+           <li class="li"><a href="../index.html">logout</a></li>
+        </ul>
+    </div>
+    <!--from here gallary code starts -->
+    <div class="bodyOfGallary">
+        <img src="ka.PNG" onclick="imgK(this.src,'Weasel','How beautiful the strategy, you should occasionally look at the results.')">
+        <img src="kb.PNG" onclick="imgK(this.src,'Dog','A dog is one of the few things in life, that is exactly what it seems.')">
+        <img src="kc.PNG" onclick="imgK(this.src,'Sika Deer','Knowledge is knowing what to say, Wisdom is knowing when to say it.')">
+        <img src="kd.PNG" onclick="imgK(this.src,'Black billed magpies','Never let success go to your head and Never let failure go to your heart.')">
+        <img src="ke.PNG" onclick="imgK(this.src,'Horses','Practice like you have never won, Perform like you have never lost.')">
+        <img src="kf.PNG" onclick="imgK(this.src,'Vampire deer','Winners are not those who never fail, But those who never quit.')">
+        <img src="kg.PNG" onclick="imgK(this.src,'Pink Piggi','We will be known forever by the tracks we leave.')">
+        <img src="kh.PNG" onclick="imgK(this.src,'Dolphin','A smile can change the whole world.')">
+    </div>
+</body>
+</html>

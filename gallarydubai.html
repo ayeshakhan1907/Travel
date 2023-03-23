@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelled Image Gallary </title>
+    <link rel="stylesheet" href="navtravel.css">
+    <link rel="stylesheet" href="gallary.css">
+    <script src="gallary.js" defer></script>
+</head>
+<body onload="dcolo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallary</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display: none;" onclick="imgV()">
+        <img id="fullImg" src="da.PNG">
+        <h1 id="imgheading">Heading</h1>
+        <p  id="imgparagraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor dolore ea fugiat ducimus consectetur atque ab. Aliquid, laudantium cupiditate.
+        </p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+           <li class="li"> <a href="Home.html">Home</a></li>
+           <li class="li" id="sublistplace">places
+            <ul id="sublist"> <a href="gallary.html">
+                <li class="sli">India</li> </a>
+                <a href="#">
+                <li class="sli">Dubai</li></a>
+                <a href="gallarykorea.html">
+                <li class="sli">korea</li> </a>
+            </ul>
+           </li>
+           <li class="li"> <a href="AboutUs.html">Info</a></li>
+           <li class="li"><a href="../index.html">logout</a></li>
+        </ul>
+    </div>
+    <!--from here gallary code starts -->
+    <div class="bodyOfGallary">
+        <img src="da.PNG" onclick="imgK(this.src,'Owl','Observe and reflect, and become a little wiser every day.')">
+        <img src="db.PNG" onclick="imgK(this.src,'Deer','We can judge the heart of a man by his treatment of animals.')">
+        <img src="dc.PNG" onclick="imgK(this.src,'Eagle','An eagle uses the negative energy of a storm to fly even higher.')">
+        <img src="dd.PNG" onclick="imgK(this.src,'Arabian Oryx','Donot forget to sleep, your body will thank you.')">
+        <img src="de.PNG" onclick="imgK(this.src,'Penguins','Penguins are the most happiest beings, they enjoy jumping off the feet their whole life.')">
+        <img src="df.PNG" onclick="imgK(this.src,'Camel','Patience and Humor are two camels that can take you through any desert.')">
+        <img src="dg.PNG" onclick="imgK(this.src,'Flamingo','Just be your own unique beautiful self.')">
+        <img src="dh.PNG" onclick="imgK(this.src,'Tiger','Look inside your soul, you will find the lion in you, Be fearless and taste the success.')">
+    </div>
+</body>
+</html>
